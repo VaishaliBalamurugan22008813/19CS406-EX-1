@@ -13,7 +13,7 @@ Start the program. Get the frame size from the user To create the frame based on
 
 
 PROGRAM :
-
+```
 CLIENT:
 Developed by : VAISHALI BALAMURUGAN
 Register Number : 212222230164
@@ -30,7 +30,8 @@ ack=c.recv(1024).decode()
 if ack:
  print(ack)
  c.close()
-
+```
+```
 SERVER:
 Developed by : VAISHALI BALAMURUGAN
 Register Number : 212222230164
@@ -40,7 +41,7 @@ s.connect(('localhost',8000))
 print(s.getsockname())
 print(s.recv(1024).decode())
 s.send("acknowledgement recived from the server".encode())
-
+```
 
 
 OUTPUT:
@@ -50,6 +51,7 @@ CLIENT:
 SERVER:
 ![image](https://github.com/VaishaliBalamurugan22008813/19CS406-EX-1/assets/119390134/0dcb0262-dba1-4bef-86a1-565ce9e8f8f6)
 
-
+```
 RESULT:
  Thus, python program to perform stop and wait protocol was successfully executed.
+```
